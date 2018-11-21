@@ -27,9 +27,21 @@ header {
 }
 
 .logo {
-	margin-top: 41px;
+	margin-top: 25px;
 	float: left;
+	font-family: 'Norican', cursive;
+	font-size: 40px;
+}
 
+.logo a {
+	text-decoration: none;
+	color: rgb(178, 84, 7);
+	display: block;
+	transition: all 1s ease;
+}
+
+.logo a:hover {
+	transform: rotate(360deg);
 }
 
 nav{
@@ -47,6 +59,11 @@ nav{
 	display: block;
 	margin-right: 41px;
 	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.menu li:hover {
+	border-bottom: 3px solid rgb(178, 84, 7);
 }
 
 .menu a {
@@ -85,7 +102,15 @@ h1{
 	font-weight: bold;
 	font-size: 18px;
 	margin-top: 50px;
+	box-shadow: rgb(25, 23, 23) 3px 5px 15px;
+	transition: all 0.5s ease;
 }
+
+.button:hover {
+	background-color: rgb(178, 84, 7);
+	color: #fff;
+}
+
 .title {
 	padding-top: 115px;
 }
